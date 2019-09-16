@@ -1,0 +1,15 @@
+image: openbsd/latest
+packages:
+  - jdk-1.8.0
+  - gmake
+  - bash
+  - libtool
+  - maven
+  - autoconf-2.69
+  - automake-1.16
+environment:
+  - JAVA_HOME: /usr/local/jdk-1.8.0
+  - AUTOMAKE_VERSION: 1.16
+  - AUTOCONF_VERSION: 2.69
+tasks:
+  - build: mvn install
