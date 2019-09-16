@@ -1,4 +1,6 @@
 image: openbsd/latest
+sources:
+  - https://github.com/voutilad/hawtjni
 packages:
   - jdk%1.8
   - gmake
