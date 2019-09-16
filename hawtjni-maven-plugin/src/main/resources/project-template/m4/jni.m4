@@ -109,6 +109,7 @@ AC_DEFUN([CHECK_JNI_JDK],[
     case "$host_os" in
        darwin*) __JNI_INCLUDE_EXTRAS="darwin";;
       freebsd*) __JNI_INCLUDE_EXTRAS="freebsd";;
+      openbsd*) __JNI_INCLUDE_EXTRAS="openbsd";;
         linux*) __JNI_INCLUDE_EXTRAS="linux genunix";;
           osf*) __JNI_INCLUDE_EXTRAS="alpha";;
       solaris*) __JNI_INCLUDE_EXTRAS="solaris";;
