@@ -14,4 +14,4 @@ environment:
   AUTOMAKE_VERSION: 1.16
   AUTOCONF_VERSION: 2.69
 tasks:
-  - build: doas mvn install
+  - build: cd hawtjni && doas mvn install
